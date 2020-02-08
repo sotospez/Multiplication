@@ -1,0 +1,36 @@
+.container{
+  max-width: 1600px;
+  margin: 0 auto;
+  padding-right: 2vmax;
+  padding-left: 2vmax;
+  display: flex;
+  justify-content: center;
+
+
+
+
+}
+.col-item{
+  padding: 1vmax;
+  width: 100%;
+
+}
+table {
+  width: 100%;
+
+}
+.mat-footer-cell{
+  font-weight: 500;
+  font-size: 18px;
+
+}
+tr{
+
+}
+tr.even{
+background: lightcoral;
+  td{
+    text-decoration: line-through;
+
+  }
+}
