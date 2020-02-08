@@ -3,19 +3,20 @@
     Welcome to {{ title }}!
   </h1>
 </div>
-<div class="container row">
-  <mat-card class="example-card">
+<div class="container ">
+  <div class="lead">
+  <mat-card >
     <mat-card-header>
-      <div mat-card-avatar class="example-header-image"></div>
+      <div mat-card-avatar  ></div>
       <mat-card-title>Input Form</mat-card-title>
       <mat-card-subtitle>2 numbers for Multiplication</mat-card-subtitle>
     </mat-card-header>
     <mat-card-content>
-        <mat-form-field class="example-full-width">
+        <mat-form-field  >
           <input matInput min="1" (ngModelChange)="calc($event)" [(ngModel)]="numberOne" type="number" placeholder="" value="0">
         </mat-form-field>
         <span style="padding-left:10px;padding-right: 10px">X</span>
-        <mat-form-field class="example-full-width">
+        <mat-form-field  >
           <input matInput    (ngModelChange)="calc($event)" type="number" [(ngModel)]="numberTwo" placeholder="" value="0">
         </mat-form-field>
       <div>
@@ -23,12 +24,14 @@
       </div>
     </mat-card-content>
   </mat-card>
+  </div>
 </div>
-<div class="container row">
+<div class="container ">
+
   <div class="col-item">
-    <mat-card class="example-card">
+    <mat-card  >
       <mat-card-header>
-        <div mat-card-avatar class="example-header-image"></div>
+        <div mat-card-avatar  ></div>
         <mat-card-title>Russian </mat-card-title>
         <mat-card-subtitle>Multiplication</mat-card-subtitle>
       </mat-card-header>
@@ -61,10 +64,11 @@
       </mat-card-content>
     </mat-card>
   </div>
+
   <div class="col-item">
-    <mat-card class="example-card">
+    <mat-card  >
       <mat-card-header>
-        <div mat-card-avatar class="example-header-image"></div>
+        <div mat-card-avatar  ></div>
         <mat-card-title>Egyptian</mat-card-title>
         <mat-card-subtitle>Multiplication</mat-card-subtitle>
       </mat-card-header>
@@ -97,5 +101,16 @@
       </mat-card-content>
     </mat-card>
   </div>
+
+
+</div>
+<hr>
+<div class=" row">
+
+  <p>This project is a fun project, inspired by this video <a href="https://www.youtube.com/watch?v=HJ_PP5rqLg0" target="_blank">Russian Multiplication - Numberphile</a><br>
+  </p>
+  <p>Project on <a href="https://github.com/sotospez/Multiplication" target="_blank">Github</a></p>
+  <p><strong>Sotiris</strong></p>
+
 </div>
 
